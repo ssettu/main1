@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Адаптивный сайт</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header, main, footer {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media screen and (max-width: 600px) {
+            header, main, footer {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Заголовок сайта</h1>
+    </header>
+    <main>
+        <p>Основное содержание сайта здесь.</p>
+        <img src="Awesome Tokyo Anime Wallpapers - WallpaperAccess.jpg" alt="Гибкое изображение">
+    </main>
+    <footer>
+        <p>Подвал сайта</p>
+    </footer>
+</body>
+</html>
